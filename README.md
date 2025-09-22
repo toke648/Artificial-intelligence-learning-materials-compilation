@@ -1,23 +1,44 @@
+# AI 学习路径与资源（ai-learning-paths-resources）
+
+主要内容：
+[人工智能学习资料（个人整理）(Artificial intelligence learning materials compilation)](./roadmap.md)
+
+## 目标
+为自己和他人整理一套可操作的 AI 学习资源：从 Python → ML → DL → RL → Transformer，并配套实践项目与小样例代码。把每个知识点标注成“能做/想做/已做”的 checklist。
+
+## 目录建议
+- 00-README.md
+- 01-path-overview.md  # 总览图 + checklist
+- 02-python/
+- 03-ml-sklearn/
+- 04-pytorch/
+- 05-transformer/
+- 06-rl/
+- 07-projects/
+  - project-01-housing-price/
+  - project-02-mnist/
+  - project-03-cartpole/
+
+## 项目输出格式建议
+每个 project 文件夹：
+- `notebook.ipynb`（或 `script.py`）
+- `data/`（小样本或下载脚本）
+- `README.md`（任务、数据、复现步骤、结果截图）
+
+## 起步资源
+- zh.d2l.ai（动手学深度学习）
+- Attention Is All You Need（Transformer 原始论文）
+
+## 贡献
+
+
+
+
+---
+
 ## 人工智能学习资料（个人整理）(Artificial intelligence learning materials compilation)
 
 > 脑子一热写出来的，后面会不断补充更新。大部分内容我都学过，感觉很优秀、容易理解（数学部分暂缺，需要补）。
-
----
-
-目标
-- 为自己和愿意参考的人提供一个从入门到进阶的“可做”清单：每个项目包含数据来源、最小可运行 demo、关键坑与参考链接。
-
-流程
-1. 读 `roadmap.md` 了解阶段与预期产出。
-2. 选一个 `projects/` 内的项目，阅读 `README`，运行 notebook。
-3. 把运行结果推到 `results/`（可选）并写短总结。
-
-示例项目：projects/02-mnist-cnn/ 包含：
-- `notebook.ipynb`（训练与可视化）
-- `requirements.txt`
-- `README.md`（如何跑）
-
----
 
 ### 学习路线总览
 
