@@ -30,9 +30,14 @@
 - Attention Is All You Need（Transformer 原始论文）
 
 ## 贡献
+暂无
 
 
+首批 issues：
 
+- 收集 5 个公开脑电/局部场电位（LFP）数据集链接并写下载脚本
+
+- 写一篇 ethics.md（包含数据使用与动物实验的合规草案）
 
 ---
 
